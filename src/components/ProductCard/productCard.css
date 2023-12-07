@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.card-container {
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+  max-width: 20rem;
+}
+
+.product-header {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.img-container {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.product-body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding: 1rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.card-body  .product-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-description {
+  color: rgb(75, 85, 99);
+  font-size: 14px;
+}
+
+.product-footer {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.product-footer .font-bold {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.product-footer .btn-buy {
+  background-color: rgb(59, 130, 246);
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  color: white;
+  /* border-radius: 0.25rem; */
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn-buy:hover {
+  transform: scale(1.05);
+}
